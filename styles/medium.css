@@ -10,8 +10,9 @@
     }
 
     img {
-        width: 120px;
-        height: 150px;
+        max-inline-size: 100%;
+        max-block-size: 150px;
+        block-size: auto;
     }
 
     ul {
