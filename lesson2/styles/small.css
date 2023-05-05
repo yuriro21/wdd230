@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Merienda:wght@700&display=swap');
-
 body {
     font-size: 0.8rem;
     font-family: Marcellus;
     padding: 10px;
     background-color: whitesmoke;
+    font-family: 'Marcellus', serif;
+    font-family: 'Merienda', cursive;
 }
 
 header{
