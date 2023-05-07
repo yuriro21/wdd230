@@ -1,0 +1,85 @@
+body {
+    font-family: 'Instrument Serif', serif;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: #16DB65;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+header {
+    background-color: #04471C;
+    color: whitesmoke;
+}
+
+a {
+    gap: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Barlow', sans-serif;
+    align-content: center;
+    align-items: center;
+}
+
+main section{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {    
+    text-align: center;
+    list-style-position: inside;
+}
+
+.colors {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+.primary {
+    background-color: #04471C;
+    color: whitesmoke;
+}
+
+.secondary {
+    background-color: #16DB65;
+}
+
+.accent1 {
+    background-color: #def4c6;
+}
+
+.accent2 {
+    background-color: whitesmoke;
+}
+
+footer {
+    align-items: center;
+    align-content: center;
+    background-color: #04471C;
+    color: whitesmoke;
+}
+
