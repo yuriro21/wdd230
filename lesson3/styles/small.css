@@ -1,22 +1,35 @@
 body {
     font-family: 'Instrument Serif', serif;
-    display: grid;
-    grid-template-columns: auto;
-    gap: 20px;
     align-items: center;
     align-content: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: whitesmoke;
 }
 
 nav {
     background-color: #16DB65;
+    color: #04471C;
     margin-top: -20px;
     padding: 10px;
+    box-shadow: 0 0 30px #333;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
+nav a:hover {
+    background-color: #def4c6;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #333;
+}
+
+p {
+    padding: .5rem;
+}
+
+header , footer {
+    display: flex;
+    flex-direction: column;
     background-color: #04471C;
     color: whitesmoke;
 }
@@ -37,7 +50,7 @@ main section{
     align-items: center;
     text-align: center;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%; 
 }
 
 ul {    
@@ -52,13 +65,16 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+
 .colors th {
     background-color: #999;
   }
-  .colors td{
+
+.colors td{
     width: 25%;
     height: 3em;
-  }
+}
+
 .primary {
     background-color: #04471C;
     color: whitesmoke;
@@ -77,9 +93,8 @@ ul {
 }
 
 footer {
-    align-items: center;
-    align-content: center;
     background-color: #04471C;
     color: whitesmoke;
+    box-shadow: 0 0 30px #333;
+    margin-top: 50px;
 }
-
