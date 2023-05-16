@@ -1,7 +1,5 @@
 *{
     font-family: 'Instrument Serif', serif;
-    padding: 0;
-    margin: 0;
 }
 
 h1, h2, h3 {
@@ -10,12 +8,92 @@ h1, h2, h3 {
 
 header {
     display: flex;
-    background-color: ghostwhite;
-    padding: 5px 0;
+    flex-direction: column;
+    background-color: #16DB65;
+    padding: 10px 0;
 }
 
 header img {
-    width: 80px;
+    width: 60px;
     height: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#logo {
+    width: 120px;
     border-radius: 100px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #04471C;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 15px;
+}
+
+.primaryNav li {
+    display: flex;
+    flex-direction: row;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #04471C;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #04471C;
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
 }
