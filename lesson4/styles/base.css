@@ -6,7 +6,7 @@ h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
 }
 
-header {
+header, footer {
     display: flex;
     flex-direction: column;
     background-color: #16DB65;
@@ -20,9 +20,11 @@ header img {
     background-color: whitesmoke;
 }
 
-#logo {
+.logo {
     width: 120px;
     border-radius: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .first {
@@ -67,7 +69,6 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: #04471C;
-    
 }
 
 nav ul li a:hover {
@@ -77,23 +78,24 @@ nav ul li a:hover {
 nav ul {
     display: none;
 }
-
 nav ul.open {
     display: block;
 }
-
 #hamburgerBtn span:nth-child(1) {
     display: block;
 }
-
 #hamburgerBtn span:nth-child(2) {
     display: none;
 }
-
 #hamburgerBtn.open span:nth-child(1) {
     display: none;
 }
-
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
 }
+
+
+
+
+
+
