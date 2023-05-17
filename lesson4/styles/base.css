@@ -100,7 +100,7 @@ nav ul.open {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 10%;
+    margin: 5%;
     font-size: 10px;
     gap: 10px;
 }
@@ -139,9 +139,16 @@ main {
     padding: 15%;
 }
 
-#spotlight3 {
+.sportlight1 {
+    border-color: black;
+}
+
+.sportlight2 {
+    border-color: red;
+}
+
+.spotlight3 {
     display: none;
-    color: red;
 }
 
 /*Footer*/
