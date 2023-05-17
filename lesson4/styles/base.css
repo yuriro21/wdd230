@@ -6,7 +6,8 @@ h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
 }
 
-header, footer {
+/*Header*/
+header {
     display: flex;
     flex-direction: column;
     background-color: #16DB65;
@@ -25,6 +26,7 @@ header img {
     border-radius: 100px;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
 }
 
 .first {
@@ -32,6 +34,7 @@ header img {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .second {
@@ -40,9 +43,8 @@ header img {
     align-items: center;
     justify-content: center;
     background-color: #04471C;
-    color: whitesmoke;
-    padding: 10px;
-    margin: 15px;
+    color: whitesmoke;    
+    margin: 15px;    
 }
 
 .primaryNav li {
@@ -94,8 +96,93 @@ nav ul.open {
     display: block;
 }
 
+/*Main*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10%;
+    font-size: 10px;
+    gap: 10px;
+}
 
+#hero {
+    background-color: silver;
+    border: black;
+    padding: 15%;
+}
 
+#weather {
+    background-color: silver;
+    border: black;
+    padding: 15%;
+}
+
+#news {
+    background-color: silver;
+    border: black;
+    padding: 15%;
+}
+
+#event {
+    background-color: silver;
+    border: black;
+    padding: 15%;
+}
+
+#join {
+    display: none;
+}
+
+.spotlight {
+    background-color: silver;
+    border: black;
+    padding: 15%;
+}
+
+#spotlight3 {
+    display: none;
+    color: red;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #16DB65;
+    text-align: center;
+}
+
+.logof{
+    width: 120px;
+    height: auto;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.footer2 {
+    background-color: #04471C;
+    color: whitesmoke;
+    font-size: 20px;    
+}
+
+#map {
+    text-decoration: none;
+    color: black;
+}
+
+#ftext {
+    font-size: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    grid-column: 1/4;
+    border-top: 3px solid #04471C;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    margin-top: 5%;
+}
 
 
 
