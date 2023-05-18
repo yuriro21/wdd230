@@ -75,6 +75,7 @@
     }
 
     #join {
+        display: block;
         grid-column: 1/4;
         grid-row: 4/5;
         background-color: silver;
@@ -99,7 +100,7 @@
     }
 
     .spotlight3 {
-        display: none;
+        display: block;
     }
 
 }
