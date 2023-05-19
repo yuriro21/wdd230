@@ -100,7 +100,10 @@
     }
 
     .spotlight3 {
-        display: block;
+        display: none;
     }
 
+    #ftext {
+        font-size: 20px;
+    }
 }

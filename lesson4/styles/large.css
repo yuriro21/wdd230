@@ -72,4 +72,11 @@
         border-color: red;
     }
 
+    .spotlight3 {
+        display: block;
+    }
+
+    #ftext {
+        font-size: 22px;
+    }
 }
