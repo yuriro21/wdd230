@@ -20,9 +20,10 @@ main {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1rem;
-	background-color: #ddd;
+	background-color: #002E5D;
 	display: flex;
 	flex-direction: column;
+	color: white;
 }
 
 input,
@@ -50,6 +51,8 @@ button {
 ul {
 	margin: 1rem;
 	list-style: none;
+	border: 1px dotted white;
+	padding: 20px;
 }
 
 li {
