@@ -98,6 +98,12 @@ nav ul.open {
     display: block;
 }
 
+#social {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 /*Main*/
 main {
     display: grid;
@@ -110,25 +116,25 @@ main {
 
 #hero {
     background-color: silver;
-    border: black;
+    border: 1px solid black;;
     padding: 15%;
 }
 
 #weather {
     background-color: silver;
-    border: black;
+    border: 1px solid black;;
     padding: 15%;
 }
 
 #news {
     background-color: silver;
-    border: black;
+    border: 1px solid black;;
     padding: 15%;
 }
 
 #event {
     background-color: silver;
-    border: black;
+    border: 1px solid black;
     padding: 15%;
 }
 
@@ -137,21 +143,22 @@ main {
 }
 
 .spotlight {
-    position: relative;
     background-color: silver;
-    border: black;
+    padding: 2%;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.spotlight1 {
+    background-color: silver;
+    border: 1px solid black;
     padding: 15%;
 }
 
-.sportlight1 {
-    position: relative;
-    border: 1px black;
-    width: 20%;
-    height: 20%;
-}
-
-.sportlight2 {
-    border: 1px  black;
+.spotlight2 {
+    background-color: silver;
+    border: 1px solid black;
+    padding: 15%;
 }
 
 .spotlight3 {
