@@ -22,3 +22,7 @@ button.addEventListener("click", () =>{
 
     input.focus();
 });
+
+
+const currentDate = new Date();
+document.querySelector('#year').textContent = currentDate.getFullYear();
