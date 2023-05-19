@@ -3,21 +3,21 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 button.addEventListener("click", () =>{
-    const myItem = input.value;
+    const chapter = input.value;
     input.value = "";
 
-    const listItem = document.createElement("li");
+    const listchapter = document.createElement("li");
     const listText = document.createElement("span");
     const listButton = document.createElement("button");
 
-    listItem.appendChild(listText);
-    listText.textContent = myItem;
-    listItem.appendChild(listButton);
+    listchapter.appendChild(listText);
+    listText.textContent = chapter;
+    listchapter.appendChild(listButton);
     listButton.textContent = "❌";
-    list.appendChild(listItem);
+    list.appendChild(listchapter);
 
     listButton.addEventListener("click", ()=>{
-        list.removeChild(listItem);
+        list.removeChild(listchapter);
     });
 
     input.focus();
