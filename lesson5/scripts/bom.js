@@ -4,8 +4,7 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", () =>{
     const chapter = input.value;
-    input.value = "";
-
+    if (input.value !== ""){
     const listchapter = document.createElement("li");
     const listText = document.createElement("span");
     const listButton = document.createElement("button");
@@ -21,8 +20,9 @@ button.addEventListener("click", () =>{
     });
 
     input.focus();
+    } 
 });
 
 
 const currentDate = new Date();
-document.querySelector('#year').textContent = currentDate.getFullYear();
+document.querySelector('#year').textContent = currentDate.getFullYear(); 
