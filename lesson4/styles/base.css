@@ -7,7 +7,7 @@ h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
     font-size: 25px;
 }
-p {
+p, a {
     font-size: 22px;
     padding: 10px;
 }
@@ -131,7 +131,7 @@ main {
     position: relative;
     border: 1px solid black;
     height: auto;
-    
+    border-radius: 0;
 }
 
 #imgcordero {
@@ -214,10 +214,21 @@ main {
 }
 
 .spotlight1 {
+    display: flex;
+    flex-direction: column;
     background-color: silver;
     border: 1px solid black;
-    padding: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
+
+.img-spot {
+    max-inline-size: 30%;
+    border-radius: 10px;
+}
+
 
 .spotlight2 {
     background-color: silver;
@@ -228,6 +239,17 @@ main {
 .spotlight3 {
     display: none;
 }
+
+.line2 {
+    width: 80%;
+    height: 2px;
+    grid-column: 1/4;
+    border-top: 3px solid #04471C;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    margin-top: 5%;
+}
+
 
 /*Footer*/
 footer {
