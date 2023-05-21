@@ -55,7 +55,8 @@
         grid-row: 3/4;
         background-color: silver;
         border: 1px solid black;
-        padding: 15%;
+        font-size: 20px;
+
     }
 
     #event {

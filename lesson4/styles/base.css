@@ -1,11 +1,20 @@
 *{
     font-family: 'Instrument Serif', serif;
+    
 }
 
 h1, h2, h3 {
     font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+}
+p {
+    font-size: 22px;
+    padding: 10px;
 }
 
+section, div {
+    border-radius: 10px;
+}
 /*Header*/
 header {
     display: flex;
@@ -138,7 +147,6 @@ main {
     left: 5%;
     color: white;
     text-shadow: .25rem .25rem .75rem black;
-    font-size: 15px;
 }
 
 #herobutton {
@@ -165,7 +173,6 @@ main {
 
 #img-weather{
     max-inline-size: 60%;
-    block-size: auto;
     object-position: left;
     margin-right: 10%;
 }
@@ -180,8 +187,10 @@ main {
 
 #news {
     background-color: silver;
-    border: 1px solid black;;
-    padding: 15%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
 }
 
 #event {

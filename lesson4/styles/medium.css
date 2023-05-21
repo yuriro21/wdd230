@@ -18,7 +18,7 @@
     }
 
     #welcome {
-        font-size: 20px;
+        font-size: 28px;
     }
     #herobutton {
         padding: 1.5rem;
@@ -36,7 +36,8 @@
         grid-row: 2/3;
         background-color: silver;
         border: 1px solid black;
-        padding: 15%;
+        font-size: 20px;
+
     }
 
     #event {
@@ -53,7 +54,18 @@
         grid-row: 4/5;
         background-color: silver;
         border: 1px solid black;
-        padding: 15%;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    .button {        
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 25px;
+        box-shadow: 10px 5px 10px #04471C;
+        background-color: #16DB65;
+        font-weight: 800;
     }
 
     .spotlight {
