@@ -1,5 +1,10 @@
 @media only screen and (min-width: 800px){
 
+    /*Header*/
+    #cordero-title {
+        font-size: 33px;
+    }
+
     /*Main*/
     main {
         display: grid;

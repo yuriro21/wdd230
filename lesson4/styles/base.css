@@ -230,9 +230,14 @@ main {
 
 
 .spotlight2 {
+    display: flex;
+    flex-direction: column;
     background-color: silver;
     border: 1px solid black;
-    padding: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .spotlight3 {
