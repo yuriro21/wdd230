@@ -9,7 +9,7 @@
         display: flex;
         margin-left: 2vw;
     }
-
+ 
     nav ul li a {
         border: none;
         font-size: 25px;
@@ -95,14 +95,14 @@
     #sport1 {
         background-color: silver;
         border: 1px solid black;
-        height: auto;
+        height: 33%;
         text-align: center;
     }
 
     #sport2 {
         background-color: silver;
         border: 1px solid black;
-        height: auto;
+        height: 33%;
         text-align: center;
     }
 
@@ -115,6 +115,7 @@
         text-align: center;
         justify-content: center;
         align-content: center;
+        height: 33%;
     }
     
     a {
