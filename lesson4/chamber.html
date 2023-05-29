@@ -19,16 +19,16 @@
     <header>
         <section class="first">
             <picture>
-                <img class="logo" src="images/logo-cordero.png" alt="Logo Cordero Chamber Commerce">
+                <img class="logo" src="images/logo-cordero.webp" alt="Logo Cordero Chamber Commerce">
             </picture>        
             <h1 id="cordero-title">Cordero Chamber Of Commerce</h1>
             
             <div id="social">
                 <a href="https://www.facebook.com/" target="_blank">
-                    <img src="images/facebook.png" alt="Facebook Icon">
+                    <img src="images/facebook.webp" alt="Facebook Icon">
                 </a>
                 <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="images/linkedin.png" alt="LinkedIn Icon">
+                    <img src="images/linkedin.webp" alt="LinkedIn Icon">
                 </a>
             </div>
             <nav class="menu">
@@ -48,9 +48,11 @@
     </header>
     <main>
         <div id="hero">
-            <div id="=herobox">
-                <img id="imgcordero" src="images/cordero.jpg" alt="Cordero city">
-            </div>
+            <picture>
+                <source srcset="images/wdd230-org-1200.jpg" media="(min-width: 1200px)">
+                <source srcset="images/wdd230-org-800.jpg" media="(min-width: 800px)">
+                <img id="imgcordero" src="images/wdd230-org-400.jpg" alt="Cordero city">
+            </picture>
             <section id="welcome">
                 <h1>Welcome to Cordero</h1>
             </section>
@@ -68,14 +70,15 @@
                 <h1>Weather</h1>
             </div>
             <div id="temperature">
-                <img id="img-weather" src="images/clima.png" alt="Weather">
-                <h1>33°C</h1>
+                <img id="img-weather" src="images/clima.webp" alt="Weather">
+                <span class="gradesf">10</span>
+                <p class="gradesf">&deg;F</p>
             </div>
             <h1>Partly Cloudy</h1>
             <div id="w-line"></div>
             <div>
-                <h3>Wind Speed:    2.5 km/h</h3>
-                <h3>Wind Chill:    N/A</h3>
+                <h3>Wind Speed: <span id="mph">12</span> mph</h3>
+                <h3>Wind Chill: <span id="windchill">N/A</span></h3>
             </div>            
         </section>
         <section id="news">
@@ -91,7 +94,7 @@
         <div class="spotlight">
             <section class="spotlight1" id="sport1">
                 <h1>Ferreteria la Minita C.A.</h1>
-                <img class="img-spot" src="images/ferreteria.png" alt="ferreteria la Minita">
+                <img class="img-spot" src="images/ferreteria.webp" alt="ferreteria la Minita">
                 <p>"Everything for construction."</p>
                 <div class="line2"></div>                
                 <a class="footer-a" href="iferreminita@gmail.com">ferreminita@gmail.com</a>
@@ -99,7 +102,7 @@
             </section>
             <section class="spotlight2" id="sport2">
                 <h1>Farmacia Leydicar</h1>
-                <img class="img-spot" src="images/farma.png" alt="farmacy Leydicar">
+                <img class="img-spot" src="images/farma.webp" alt="farmacy Leydicar">
                 <p>"Your well-being is our priority"</p>
                 <div class="line2"></div>                
                 <a class="footer-a" href="farmaleydicar@gmail.com">farmaleydicar@gmail.com</a>
@@ -107,7 +110,7 @@
             </section>
             <section class="spotlight3">
                 <h1>El Merendero</h1>
-                <img class="img-spot" src="images/restaurant.jpg" alt="restaurant el Merendero">
+                <img class="img-spot" src="images/restaurant.webp" alt="restaurant el Merendero">
                 <p>"We take care of your food, we take care of you."</p>
                 <div class="line2"></div>                
                 <a class="footer-a" href="elmerendero@gmail.com">elmerendero@gmail.com</a>
@@ -119,7 +122,7 @@
     <footer>
         <section class="footer1">
             <picture>
-                <img class="logof" src="images/logo-cordero.png" alt="Logo Cordero chamber of Commerce">
+                <img class="logof" src="images/logo-cordero.webp" alt="Logo Cordero chamber of Commerce">
             </picture>
             <div>
                 <h1>Cordero Chamber of Commerce</h1>

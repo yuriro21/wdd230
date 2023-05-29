@@ -48,8 +48,9 @@
     }
 
     #imgcordero {
+        object-fit: cover;
         aspect-ratio: 0.63;
-    }
+    } 
 
     #weather {
         grid-column: 1/2;
