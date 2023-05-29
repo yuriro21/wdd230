@@ -49,7 +49,7 @@
 
     #imgcordero {
         object-fit: cover;
-        aspect-ratio: 0.63;
+        aspect-ratio: 63/100;
     } 
 
     #weather {
