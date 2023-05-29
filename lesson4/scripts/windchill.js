@@ -1,7 +1,7 @@
-var temperature = document.getElementById('gradesf');
-var wind = document.getElementById('mph');
+var temperature = document.querySelector('gradesf');
+var wind = document.querySelector('mph');
 
-var windchill = (35.74 + (0.6215 * temperature))-(35.75 * Math.pow(wind,0.16)) + (0.4275*temperature*Math.pow(wind,0.16));
+var windchill = 35.74 + (0.6215 * temperature) + (0.4275 * temperature - 35.75)  *  wind ^ 0.16;
 var windchillr = Math.round(windchill);
-document.getElementById('windchill').innerHTML = windchillr;
+document.getElementById('windchill').innerHTML = windchill;
 
