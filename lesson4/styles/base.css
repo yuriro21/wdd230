@@ -170,7 +170,11 @@ main {
     height: auto;
 }
 
-.gradesf {
+#gradesf {
+    font-size: 2.5rem;
+}
+
+#gradesftext {
     font-size: 2.5rem;
 }
 
