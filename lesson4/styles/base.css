@@ -131,6 +131,7 @@ main {
     border: 1px solid black;
     height: auto;
     border-radius: 0;
+    margin: 0 auto;
 }
 
 #imgcordero, picture {
@@ -138,14 +139,15 @@ main {
     block-size: auto;
     object-fit: contain;
     object-position: top center;
+    
 }
 
 #welcome {
     position: absolute;
     top: 5%;
     left: 5%;
-    color: white;
-    text-shadow: .25rem .25rem .75rem black;
+    color: black;
+    text-shadow: .25rem .25rem .75rem silver;
 }
 
 #herobutton {
