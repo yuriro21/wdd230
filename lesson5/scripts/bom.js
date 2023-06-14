@@ -20,9 +20,9 @@ button.addEventListener("click", () =>{
     });
 
     input.focus();
+    input.value = "";
     } 
 });
-
 
 const currentDate = new Date();
 document.querySelector('#year').textContent = currentDate.getFullYear(); 
