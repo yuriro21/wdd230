@@ -24,3 +24,17 @@ document.querySelector('#currentime').textContent = `${currentday}, ${date} ${cu
 
 //Last modified
 document.querySelector('#lastModified').textContent = `Last updated: ${document.lastModified}`;
+
+//banner
+const banner = document.getElementById('banner');
+
+function addbanner() {
+    console.log(day);
+    if (day === 2 || day === 3) {
+        banner.classList.add("displays");
+        const p = document.createElement("p");
+        p.innerText = "Come join us for the chamber meet and greet Wednesday at 7:00 pm";
+        banner.appendChild(p);
+    }
+}
+addbanner();
