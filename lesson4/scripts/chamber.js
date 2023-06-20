@@ -27,10 +27,8 @@ document.querySelector('#lastModified').textContent = `Last updated: ${document.
 
 //banner
 const banner = document.getElementById('banner');
-
 function addbanner() {
-    console.log(day);
-    if (day === 2 || day === 3) {
+    if (day === 1 || day === 2) {
         banner.classList.add("displays");
         const p = document.createElement("p");
         p.innerText = "Come join us for the chamber meet and greet Wednesday at 7:00 pm";

@@ -1,5 +1,7 @@
 *{
     font-family: 'Instrument Serif', serif;
+    margin: 0;
+    padding: 0;
 }
  
 h1, h2, h3 {
@@ -116,6 +118,17 @@ a:hover {
     background-color: #def4c6;
     border-radius: 10px;
 }
+
+.displays {
+    position: relative;
+    background-color: #def4c6;
+    margin: 0 auto;
+}
+
+.displays:hover {
+    box-shadow: 10px 5px 10px #04471C;
+}
+
 /*Main*/
 main {
     display: grid;
