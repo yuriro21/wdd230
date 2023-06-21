@@ -98,8 +98,31 @@
         font-size: 20px;
     }
 
+
+    /*Main Discover*/
+
+    #discover-body{
+        display: flex;
+        flex-direction: column;
+    }
     
-    /*Footer*/       
+    .disc-section{
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+    }  
+    
+    .disc-imgs {
+        margin: 20px;        
+    }
+
+    .disc-imgs:hover {
+        box-shadow: 0 0 50px #04471C;
+    }
+
+
+    /*Footer*/   
+
     .footer1 {
         display: flex;
         flex-direction: row;
