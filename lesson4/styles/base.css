@@ -277,6 +277,43 @@ main {
     margin-top: 5%;
 }
 
+/*Discover Main*/
+
+#discover-body{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #16DB65;
+    word-wrap: break-word;
+}
+.disc-section{
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.disc-section p {
+    padding: 2rem;
+}
+
+.disc-section h3 {
+    padding: 2rem;
+}
+
+.disc-imgs[data-src] {
+    filter: blur(0.4em);
+}
+
+.disc-imgs {
+    filter: blur(0em);
+    transition: filter 1s;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
 
 /*Footer*/
 footer {
