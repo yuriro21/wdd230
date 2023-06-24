@@ -38,7 +38,6 @@ function addbanner() {
 addbanner();
 
 //Discover Images
-
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
@@ -68,3 +67,18 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
 }
+
+//Last visits
+function getDaysSinceLastVisit() {
+  const lastVisitTimestamp = localStorage.getItem('lastVisitTimestamp');
+  const currentTimestamp = new Date().getTime();
+  
+  if (lastVisitTimestamp) {
+    const timeDifference = currentTimestamp - parseInt(lastVisitTimestamp);
+    const daysSinceVisit = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    document.getElementById('visits').textContent = daysSinceVisit;
+  }
+  localStorage.setItem('lastVisitTimestamp', currentTimestamp);
+}
+
+getDaysSinceLastVisit();
