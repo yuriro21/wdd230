@@ -120,6 +120,20 @@
         box-shadow: 0 0 50px #04471C;
     }
 
+    /* ------- JOIN ------- */
+    #jointitle {
+        grid-column: 2/4;
+        border-radius: 10px;
+        max-width: fit-content;
+        max-height: 30px;
+    }
+
+    form {
+        grid-column: 1/4;
+        margin-left: 25%;
+        margin-top: -660px;
+    }
+
 
     /*Footer*/   
 
