@@ -465,6 +465,15 @@ tr:nth-child(odd) td {
     background-color: rgb(240,240,240);
 }
 
+/* ------- THANKS -------*/
+#thanks {
+    grid-column: 1/5;
+    text-align: center;    
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
 
 /*Footer*/
 footer {
