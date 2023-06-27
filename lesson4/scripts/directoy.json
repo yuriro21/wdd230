@@ -32,7 +32,7 @@
             "address": "calle 11 num 7 la pradera",
             "phone": 2763962240,
             "website": "https://www.posadalapradera.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/posada.jpg",
             "membership": "Silver",
             "email": "posadapradera@gmail.com"
         },
@@ -41,7 +41,7 @@
             "address": "troncal 7 num 123",
             "phone": 4268748702,
             "website": "https://www.ranchoalegre.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/pizza.jpg",
             "membership": "Silver",
             "email": "pizzranchoalegre@gmail.com"
         },
@@ -50,7 +50,7 @@
             "address": "calle 10 Eleuterio Ch",
             "phone": 2763961234,
             "website": "https://www.pandelvalle.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/panaderia.jpg",
             "membership": "Bronze",
             "email": "pandelvalle@gmail.com"
         },
@@ -59,7 +59,7 @@
             "address": "calle 5 num 321",
             "phone": 4245943571,
             "website": "https://www.tecniauto.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/auto.png",
             "membership": "Bronze",
             "email": "tecniauto@gmail.com"
         },
@@ -68,7 +68,7 @@
             "address": "calle 17 Eleuterio CH",
             "phone": 4147212867,
             "website": "https://www.acadanza.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/danza.jpg",
             "membership": "NP",
             "email": "acadanza@gmail.com"
         },
@@ -77,7 +77,7 @@
             "address": "calle 19 Troncal 7",
             "phone": 2763960547,
             "website": "https://www.ppnaileth.com",
-            "image": ".images/restaurant.webp",
+            "image": ".images/papeleria.jpg",
             "membership": "NP",
             "email": "ppnaileth@gmail.com"
         }
