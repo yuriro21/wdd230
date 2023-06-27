@@ -475,6 +475,16 @@ tr:nth-child(odd) td {
     border: 1px solid black;
 }
 
+
+/* ------- DIRECTORY -------*/
+#space {
+    grid-column: 1/5;
+    border: 1px solid black;
+    background-color: #777;
+    margin: 0 auto;
+    padding: 0.7rem;
+}
+
 /*Footer*/
 footer {
     display: flex;

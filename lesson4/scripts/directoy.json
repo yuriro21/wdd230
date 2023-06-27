@@ -1,0 +1,85 @@
+{
+    "users": [
+        {
+            "name": "Ferreteria La Minita",
+            "address": "AV Ppal 0-275 M.F. Rugeles",
+            "phone": 4147040789,
+            "website": "https://www.ferreminita.com",
+            "image": ".images/ferreteria.webp",
+            "membership": "Gold",
+            "email": "ferreminita@gmail.com"
+        },
+        {
+            "name": "Farmacia Leydicar",
+            "address": "calle 11 La Corderena",
+            "phone": 2763961714,
+            "website": "https://www.farmaleydicar.com",
+            "image": ".images/farma.webp",
+            "membership": "Gold",
+            "email": "farmaleydicar@gmail.com"
+        },
+        {
+            "name": "El Merendero",
+            "address": "calle 10 AV bolivar",
+            "phone": 4247820465,
+            "website": "https://www.elmerendero.com",
+            "image": ".images/restaurant.webp",
+            "membership": "Silver",
+            "email": "merendero@gmail.com"
+        },
+        {
+            "name": "Posada La Pradera",
+            "address": "calle 11 num 7 la pradera",
+            "phone": 2763962240,
+            "website": "https://www.posadalapradera.com",
+            "image": ".images/restaurant.webp",
+            "membership": "Silver",
+            "email": "posadapradera@gmail.com"
+        },
+        {
+            "name": "Pizzeria Rancho Alegre",
+            "address": "troncal 7 num 123",
+            "phone": 4268748702,
+            "website": "https://www.ranchoalegre.com",
+            "image": ".images/restaurant.webp",
+            "membership": "Silver",
+            "email": "pizzranchoalegre@gmail.com"
+        },
+        {
+            "name": "Panaderia Del Valle",
+            "address": "calle 10 Eleuterio Ch",
+            "phone": 2763961234,
+            "website": "https://www.pandelvalle.com",
+            "image": ".images/restaurant.webp",
+            "membership": "Bronze",
+            "email": "pandelvalle@gmail.com"
+        },
+        {
+            "name": "Tecniauto",
+            "address": "calle 5 num 321",
+            "phone": 4245943571,
+            "website": "https://www.tecniauto.com",
+            "image": ".images/restaurant.webp",
+            "membership": "Bronze",
+            "email": "tecniauto@gmail.com"
+        },
+        {
+            "name": "Academia de Danza",
+            "address": "calle 17 Eleuterio CH",
+            "phone": 4147212867,
+            "website": "https://www.acadanza.com",
+            "image": ".images/restaurant.webp",
+            "membership": "NP",
+            "email": "acadanza@gmail.com"
+        },
+        {
+            "name": "Papeleria Naileth",
+            "address": "calle 19 Troncal 7",
+            "phone": 2763960547,
+            "website": "https://www.ppnaileth.com",
+            "image": ".images/restaurant.webp",
+            "membership": "NP",
+            "email": "ppnaileth@gmail.com"
+        }
+    ]
+}
