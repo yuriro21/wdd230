@@ -483,7 +483,7 @@ tr:nth-child(odd) td {
 /* ------- DIRECTORY -------*/
 #space {
     grid-column: 1/5;
-    border: 1px solid black;
+    border: 1px dashed black;
     background-color: silver;
     margin: 0 auto;
     padding: 0.7rem;
@@ -515,17 +515,50 @@ tr:nth-child(odd) td {
     font-size: 40px;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
+.grid {
+	display: flex;
+	flex-direction: column;
 }
 
-article section {
+.grid section {
+	text-align: center;
     margin: 20px;
     padding: 20px;
     box-shadow: 5px 5px 20px;
 }
 
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none;
+}
+
+.list section:nth-child(odd) {
+	background-color: #999;
+}
 
 /*Footer*/
 footer {
