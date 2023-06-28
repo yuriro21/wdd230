@@ -104,7 +104,7 @@ const displayUsers = (users) => {
     let number = document.createElement('p');
     let web = document.createElement('a');
 
-    name.textContent = user.name;
+    name.textContent = `${user.name} (${user.membership})`;
     direction.textContent = `${user.address}, Cordero`;
     number.textContent = `+58 ${user.phone}`;
     web.textContent = user.website;
