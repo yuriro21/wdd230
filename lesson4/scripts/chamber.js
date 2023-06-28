@@ -86,3 +86,43 @@ getDaysSinceLastVisit();
 
 //Directory
 
+async function getUsers() {
+  const response = await fetch("./data/directoy.json");
+  const data = await response.json();
+  displayUsers(data.users);
+}
+
+const displayUsers = (users) => {
+  const cards = document.querySelector('article');
+
+  users.forEach((user) => {
+
+    let card = document.createElement('section');
+    let logo = document.createElement('img');
+    let name = document.createElement('h2');
+    let direction = document.createElement('p');
+    let number = document.createElement('p');
+    let web = document.createElement('p');
+
+    name.textContent = `${user.name}`;
+    direction.textContent = `${user.address}`;
+    number.textContent = `${user.phone}`;
+    web.textContent = `${user.website}`;
+
+    logo.setAttribute('src', user.image);
+    logo.setAttribute('alt', `Logo of ${user.name}`);
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', '150');
+    logo.setAttribute('height', '150');
+
+    card.appendChild(logo);
+    card.appendChild(name);
+    card.appendChild(direction);
+    card.appendChild(number);
+    card.appendChild(web);
+
+    cards.appendChild(card);
+  });
+}
+
+getUsers();
