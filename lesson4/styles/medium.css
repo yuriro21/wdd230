@@ -141,6 +141,21 @@
         margin-top: -660px;
     }
 
+    /* ------- DIRECTORY ------- */
+    #space {
+        margin-bottom: -1080px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } 
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
     /*Footer*/   
 
     .footer1 {

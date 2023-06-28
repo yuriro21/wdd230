@@ -153,6 +153,11 @@
     .disc-section h3 {
         font-size: 33px;
     }
+
+    /* directory */
+    #space {
+        margin-bottom: -900px;
+    }
     
     /* ------- JOIN ------- */
     #jointitle {
