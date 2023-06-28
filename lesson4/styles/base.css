@@ -179,7 +179,12 @@ main {
     box-shadow: 10px 5px 10px #04471C;
     background-color: #16DB65;
     font-weight: 800;
+}
 
+#herobutton:hover {
+    background-color: #def4c6;
+    color: black;
+    box-shadow: 15px 8px 15px #04471C;
 }
 
 #weather {
@@ -420,8 +425,7 @@ table {
     font-size: 1.5rem;
     margin: 0 auto;
     box-shadow: 10px 5px 10px black;
-    height: 150px;    
-
+    height: 150px;
 }
 
 caption {

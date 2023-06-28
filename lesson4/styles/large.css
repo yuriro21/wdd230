@@ -131,7 +131,11 @@
         font-size: 22px;
     }
 
-    /*Main Discover*/    
+    /*Main Discover*/ 
+    #discover-body{        
+        margin-bottom: -1350px;
+    }
+
     .disc-section{
         margin-left: 35%;
         padding-left: 50px;

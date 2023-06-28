@@ -73,6 +73,12 @@
         font-weight: 800;
     }
 
+    .button:hover {
+        background-color: #def4c6;
+        color: black;
+        box-shadow: 15px 8px 15px #04471C;
+    }
+
     .spotlight {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -104,6 +110,7 @@
     #discover-body{
         display: flex;
         flex-direction: column;
+        margin-bottom: -1550px;
     }
     
     .disc-section{
@@ -133,7 +140,6 @@
         margin-left: 25%;
         margin-top: -660px;
     }
-
 
     /*Footer*/   
 
