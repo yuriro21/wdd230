@@ -484,10 +484,48 @@ tr:nth-child(odd) td {
 #space {
     grid-column: 1/5;
     border: 1px solid black;
-    background-color: #777;
+    background-color: silver;
     margin: 0 auto;
     padding: 0.7rem;
+    text-align: center;
 }
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+	padding: .5rem;
+	font-weight: 700;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.menu button:hover {
+	box-shadow: 7px 3px 7px #04471C;
+}
+
+#grid {
+    font-size: 40px;
+}
+
+#list {
+    font-size: 40px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article section {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px;
+}
+
 
 /*Footer*/
 footer {

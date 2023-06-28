@@ -102,12 +102,13 @@ const displayUsers = (users) => {
     let name = document.createElement('h2');
     let direction = document.createElement('p');
     let number = document.createElement('p');
-    let web = document.createElement('p');
+    let web = document.createElement('a');
 
-    name.textContent = `${user.name}`;
-    direction.textContent = `${user.address}`;
-    number.textContent = `${user.phone}`;
-    web.textContent = `${user.website}`;
+    name.textContent = user.name;
+    direction.textContent = `${user.address}, Cordero`;
+    number.textContent = `+58 ${user.phone}`;
+    web.textContent = user.website;
+    web.href = user.website;
 
     logo.setAttribute('src', user.image);
     logo.setAttribute('alt', `Logo of ${user.name}`);
