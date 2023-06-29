@@ -1,12 +1,8 @@
-//Last modified// set current year in footer
-const currentDate = new Date();
-document.querySelector('#year').textContent = currentDate.getFullYear();
-
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=86f36de3b858316028d23dffa4efd17e';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&&appid=86f36de3b858316028d23dffa4efd17e';
 
 
 async function apiFetch() {
@@ -22,16 +18,16 @@ async function apiFetch() {
     } catch (error) {
         console.log(error);
     }
-  }
+  } 
 
-async function displayResults(weatherData){
+  function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute("src", iconSrc);
+    weatherIcon.setAttribute("alt", desc);
     captionDesc.textContent = desc;
 }
 
