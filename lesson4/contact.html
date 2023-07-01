@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Assignment Chamber of Commerce page for Edisson J. Ruiz in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Cordero Chamber Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Instrument+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <section class="first">
+            <picture>
+                <img class="logo" src="images/logo-cordero.webp" alt="Logo Cordero Chamber Commerce">
+            </picture>        
+            <h1 id="cordero-title">Cordero Chamber Of Commerce</h1>
+            
+            <div id="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.webp" alt="Facebook Icon">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin.webp" alt="LinkedIn Icon">
+                </a>
+            </div>
+            <nav class="menu">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="https://yuriro21.github.io/wdd230/lesson4/chamber.html">Home</a></li>
+                    <li><a href="https://yuriro21.github.io/wdd230/lesson4/discover.html">Discover</a></li>
+                    <li><a href="https://yuriro21.github.io/wdd230/lesson4/join.html">Join</a></li>
+                    <li><a href="https://yuriro21.github.io/wdd230/lesson4/directory.html">Directory</a></li>                    
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="second">
+            <h1 id="currentime">#</h1>          
+        </section>
+        <div id="last-visit"><p>You last visited this page <span id="visits"></span> days ago</p></div>
+        <div id="banner"></div>
+    </header>
+
+
+    <main>        
+       
+    </main>
+
+
+    <footer>
+        <section class="footer1">
+            <picture>
+                <img class="logof" src="images/logo-cordero.webp" alt="Logo Cordero chamber of Commerce">
+            </picture>
+            <div>
+                <h1>Cordero Chamber of Commerce</h1>
+                <h2>Carrera Eludeterio Ch. Calle 11</h2>
+                <h3>Cordero, Tachira, Venezuela 5012</h3>
+            </div>   
+        
+            <div class="line"></div>
+            <div id="ftext">
+                <a class="footer-a" href="info@corderocc.org">info@corderocc.org</a>
+                <a class="footer-a" href="+582763961361">+58 (276) 396 1361</a>
+                <a id="map" href="https://www.google.com/maps/place/Cordero,+T%C3%A1chira,+Venezuela/@7.8550915,-72.1966126,14z/data=!3m1!4b1!4m6!3m5!1s0x8e666ef563cb5763:0xf6e21807064f680c!8m2!3d7.8553585!4d-72.1801156!16s%2Fg%2F123196t2" target="_blank">📍 Location Map</a> 
+            </div>
+        </section>
+        <div class="footer2">
+            <p>&copy; <span id="year"></span> Cordero Chamber</p>
+            <p> Edisson J. Ruiz</p>
+            <p> WDD 230 Project</p>
+            <p class="lastModif" id="lastModified"></p>
+        </div>
+    </footer>
+
+
+<script src="scripts/chamber.js"></script>
+<script src="scripts/windchill.js"></script>
+</body>
+</html>

@@ -217,11 +217,18 @@ main {
     border: 1px solid #04471C;
     width: 90%;
     margin: 20px;
+    gap: 10px;
+}
+
+#winds {
+    text-align: center;
+    margin: 5px auto;
 }
 
 h5 {
     font-size: 1rem;
     margin: 10px;
+    text-align: center;
 }
 
 #news {
