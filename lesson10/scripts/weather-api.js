@@ -20,15 +20,15 @@ async function apiFetch() {
     }
   } 
 
-  function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+function displayResults(weatherData) {
+  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
-    const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
+  const iconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const desc = weatherData.weather[0].description;
 
-    weatherIcon.setAttribute("src", iconSrc);
-    weatherIcon.setAttribute("alt", desc);
-    captionDesc.textContent = desc;
+  weatherIcon.setAttribute("src", iconSrc);
+  weatherIcon.setAttribute("alt", desc);
+  captionDesc.textContent = desc;
 }
 
 apiFetch();

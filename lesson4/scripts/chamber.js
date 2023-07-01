@@ -45,7 +45,6 @@ joinButton.addEventListener('click', () => {
     window.location.href = "./join.html";
 });
 
-
 //Discover Images
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
