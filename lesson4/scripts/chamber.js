@@ -37,14 +37,6 @@ function addbanner() {
 }
 addbanner();
 
-//join button
-
-const joinButton = document.querySelector('.button')
-
-joinButton.addEventListener('click', () => {
-    window.location.href = "./join.html";
-});
-
 //Discover Images
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
