@@ -66,14 +66,21 @@
 
     .buttonj {        
         padding: 1rem;
-        border-radius: 10px;
+        border-radius: 15px;
         font-size: 25px;
         box-shadow: 10px 5px 10px #04471C;
         background-color: #16DB65;
         font-weight: 800;
+        width: 200px;
     }
 
     .button:hover {
+        background-color: #def4c6;
+        color: black;
+        box-shadow: 15px 8px 15px #04471C;
+    }
+
+    .buttonj:hover {
         background-color: #def4c6;
         color: black;
         box-shadow: 15px 8px 15px #04471C;
@@ -135,7 +142,7 @@
         max-height: 30px;
     }
 
-    form {
+    #joinform {
         grid-column: 1/4;
         margin-left: 25%;
         margin-top: -660px;
@@ -155,6 +162,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    /* ------- CONTACT -------*/
+
 
     /*Footer*/   
 

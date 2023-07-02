@@ -578,6 +578,9 @@ tr:nth-child(odd) td {
     flex-direction: column;
 }
 
+/* ------- CONTACT ------- */
+
+
 /*Footer*/
 footer {
     display: flex;
