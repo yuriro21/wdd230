@@ -64,6 +64,10 @@
         height: auto;
     }
 
+    #formbutton {
+        margin: 0 auto;
+    }
+
     .buttonj {        
         padding: 1rem;
         border-radius: 15px;
@@ -165,6 +169,42 @@
 
     /* ------- CONTACT -------*/
 
+    #contspace {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    #contcont {
+        grid-column: 1/2;
+        height: fit-content;
+        min-width: 300px;
+    }
+
+    /* #contmap {
+        grid-column: 2/4;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 100px;
+    }
+
+    #imgmap {
+        width: 600px;
+        height: 400px;
+    } */
+
+    #contboard {
+        grid-column: 1/2;
+        height: fit-content;
+        min-width: 300px;
+    }
+
+    #contform {
+        grid-column: 2/4;
+        width: 500px;
+        margin-top: -500px;
+    }
 
     /*Footer*/   
 

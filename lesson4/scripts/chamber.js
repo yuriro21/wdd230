@@ -102,7 +102,7 @@ const displayUsers = (users) => {
     let name = document.createElement('h2');
     let direction = document.createElement('p');
     let number = document.createElement('p');
-    let web = document.createElement('a');
+    let web = document.createElement('p');
 
     name.textContent = `${user.name} (${user.membership})`;
     direction.textContent = `${user.address}, Cordero`;
