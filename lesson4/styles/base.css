@@ -165,8 +165,9 @@ main {
     position: absolute;
     top: 5%;
     left: 5%;
-    color: black;
-    text-shadow: .25rem .25rem .75rem silver;
+    color: white;
+    text-shadow: .25rem .25rem .75rem black;
+    font-size: 60px;
 }
 
 #herobutton {
