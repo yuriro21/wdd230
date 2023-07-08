@@ -166,7 +166,6 @@ main {
     top: 5%;
     left: 5%;
     color: white;
-    text-shadow: .25rem .25rem .75rem black;
     font-size: 50px;
     background-image: radial-gradient(#04471C 50%, #0c682c, transparent);
     padding: 0px 20px;

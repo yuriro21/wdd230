@@ -155,6 +155,10 @@
     }
 
     /* directory */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } 
     #space {
         margin-bottom: -600px;
     }
