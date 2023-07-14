@@ -103,9 +103,10 @@ nav ul.open {
 }
 
 /* ------- HOME ------- */
-main {
-    height: 300px;
+main picture img {
+    width: 100%;
 }
+
 /* ------- FOOTER ------- */
 
 footer {
