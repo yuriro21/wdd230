@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Boogaloo', cursive;
 }
 
+/* ------- HEADER -------*/
 #all-header {
     background: linear-gradient(to bottom, #ffa551 0%,#ff7d00 100%);
     margin: auto;
@@ -36,7 +37,6 @@ header picture img {
 #social-media{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
 }
 
 #social-media img:hover{
@@ -57,6 +57,10 @@ nav button {
     border: none;
     font-size: 2rem;
     color: black;
+}
+
+nav button:hover {
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 }
 
 nav ul {
@@ -96,4 +100,28 @@ nav ul.open {
 }
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+}
+
+/* ------- HOME ------- */
+main {
+    height: 300px;
+}
+/* ------- FOOTER ------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to bottom, #ff7d00 0%,#ffa551 100%);
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);  
+}
+
+footer div {
+    margin: 5px;
+}
+
+#logo-footer {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
 }
