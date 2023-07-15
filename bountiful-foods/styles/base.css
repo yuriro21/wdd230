@@ -15,10 +15,10 @@ h1, h2, h3, h4, h5, h6 {
 /* ------- HEADER -------*/
 #all-header {
     background: linear-gradient(to bottom, #ffa551 0%,#ff7d00 100%);
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
     margin: auto;
     text-align: center;
     width: 100%;
-    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 }
 
 header picture img {
@@ -103,9 +103,77 @@ nav ul.open {
 }
 
 /* ------- HOME ------- */
-main picture img {
-    width: 100%;
+
+#main-space {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
 }
+
+#beach-box {
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+
+#beach {
+    padding: 20px 20px 0 20px;
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
+}
+
+#beach-text {
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#south {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+#weather-box {
+    background-image: url("/bountiful-foods/images/sunset1.jpg");
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    text-shadow: white 0.1em 0.1em 1em;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+
+}
+
+#temperature {
+    padding: 10px;
+}
+
+.weat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    
+}
+
+#days {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.day {
+
+}
+
+
 
 /* ------- FOOTER ------- */
 
@@ -125,4 +193,19 @@ footer div {
     width: 50px;
     height: auto;
     border-radius: 100px;
+}
+
+#credits-page {
+    text-align: center;
+}
+
+#credits {
+    color: black;
+}
+
+#credits:hover {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+    padding: 2px;
 }

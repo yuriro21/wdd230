@@ -48,13 +48,68 @@
             </div>
         </div>
     </header>
+
+
     <main>
-        <div>
-            <picture>
-                <img src="images/pfeiffer-beach.png" alt="Pfeiffer Beach">
-            </picture>
+        <div id="main-space">
+            <div id="beach-box">
+                <picture>
+                    <img id="beach" src="images/pfeiffer-beach.png" alt="Pfeiffer Beach">
+                </picture>
+                <h4 id="beach-text">Pfeiffer Beach: see the stunning rock formations where Sycamore Canyon Creek empties into the Pacific</h4>
+            </div>
+            <div id="south">
+                <h2>California South Coast</h2>
+                <p>The California South Coast region extends from Ventura County to the Mexican Border and includes the counties of Los Angeles, Orange and San Diego. It is known for its sandy beaches, surf-able waves, moderate climate, and large and diverse population. The region is defined by the coastal plains of several major rivers and is bounded by the Transverse Mountain Ranges that include the Santa Monica and Santa Susana Mountains. The south coast of California has extremely high levels of species diversity, many of which are unique to the region, and the greatest number of threatened and endangered species in the state.</p>
+                <p>The beaches of the south coast are world famous recreational destinations that attract millions of visitors annually and are a major contributor to both the economy and the quality of life in the region. Southern California beaches typically receive over a million visitors each year.</p>
+            </div>
+            <section id="weather-box">
+                <Div>
+                    <h2>Weather in Carlsbad</h2>
+                </Div>
+                <div id="temperature">
+                    <br>
+                    <h2 id="gradesftext"><span id="gradesf"></span> &deg;F</h2>
+                    <br>
+                    <div class="weat">
+                        <figure>
+                            <img src="#" alt="#" id="weather-icon" />
+                            <figcaption></figcaption>
+                        </figure> 
+                        <h2 id="condition">#</h2>
+                    </div>                                   
+                    <div class="weat">
+                        <img src="images/humidity.png" alt="Icon Humidity">
+                        <h2 id="humidity">#</h2>
+                    </div>
+                </div>
+                <hr>
+                <div id="days">
+                    <div class="day">
+                        <h3 id="day1">day1</h3>
+                        <p><span id="grades-day1"></span>&deg;F <span id="condition-day1"></span></p>
+                        <img src="images/humidity.png" alt="Icon Humidity" width="20px">
+                    </div>
+                    <div class="day">
+                        <h3 id="day2">day2</h3>
+                        <p><span id="grades-day2"></span>&deg;F <span id="condition-day2"></span></p>
+                        <img src="images/humidity.png" alt="Icon Humidity" width="20px">
+                    </div>
+                    <div class="day">
+                        <h3 id="day3">day3</h3>
+                        <p><span id="grades-day3"></span>&deg;F <span id="condition-day3"></span></p>
+                        <img src="images/humidity.png" alt="Icon Humidity" width="20px">
+                    </div>
+                    
+                </div>
+                <div>
+                    <h4>Weather data powered by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></h4>
+                </div> 
+            </section>
         </div>
     </main>
+
+
     <footer>
         <div>
             <a href="https://yuriro21.github.io/wdd230/bountiful-foods/bountiful-foods.html">
@@ -70,12 +125,15 @@
         </div>
         <div>
             <p>Credits:</p>
-            <a href="/bountiful-foods/credits.html">Thank You!</a>
+            <a id="credits" href="/bountiful-foods/credits.html">Thank You!</a>
         </div>
         <div>            
             <p class="lastModif" id="lastModified"></p>
         </div>        
     </footer>
+
+
 <script src="scripts/bountiful-foods.js"></script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>

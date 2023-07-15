@@ -21,6 +21,16 @@
         width: 58px;
     }
 
+    /* ------- HOME ------- */
+
+    #main-space {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px; 
+        gap: 20px;
+    }
+    
+
     /* ------- FOOTER ------- */
     footer {
         display: flex;
@@ -36,7 +46,7 @@
     footer p {
         font-size: 18px;
     }
-    
+
     #logo-footer {
         width: 55px;
     }
