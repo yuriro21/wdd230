@@ -30,6 +30,13 @@
         gap: 20px;
     }
     
+    /* ------- ABOUT US ------- */
+    #main-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px; 
+        gap: 20px;
+    }
 
     /* ------- FOOTER ------- */
     footer {

@@ -174,24 +174,24 @@ nav ul.open {
 #all-fresh {
     justify-content: center;
     padding: 100px 5px;
-    background-image: url(/bountiful-foods/images/fruits.jpg);
+    background-image: url(https://yuriro21.github.io/wdd230/bountiful-foods/images/fruits.jpg);
     background-size: cover;
     box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 
 }
 
-#from-box {
+.from-box {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 350px;
+    width: 380px;
     padding: 10px;
     box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
     background-color: #f8f9fa;
 }
 
-#freshTitle {
+.titleForm {
     text-align: center;
     color: #008000;
     margin-bottom: -20px;
@@ -227,6 +227,43 @@ form label.labelf input, form label.labelf select {
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
     font-size: 22px;
+}
+
+/* ------- About US ------- */
+#main-about {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+}
+
+#history {
+    margin: 0 auto;
+    padding: 22px;
+}
+
+.title {
+    text-align: center;
+    color: #008000;
+    padding-bottom: 20px;
+}
+
+#map {
+    margin: 0 auto;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    background-size: cover;
+    border: 1px solid #008000;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);  
+    gap: 5px;
 }
 
 /* ------- FOOTER ------- */
