@@ -4,6 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const currentHumidity = document.querySelector('#humidity')
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33.158092&lon=-117.350594&units=imperial&appid=86f36de3b858316028d23dffa4efd17e'
 
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
