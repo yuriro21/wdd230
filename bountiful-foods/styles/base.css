@@ -272,6 +272,11 @@ form input.submitBtn:hover {
     width: 100%;
 }
 
+.list-fruits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* ------- About US ------- */
 #main-about {
     display: flex;

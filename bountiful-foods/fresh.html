@@ -52,7 +52,7 @@
         <div id="all-fresh">
             <div class="from-box">
                 <h1 class="titleForm">Build Your Special Drink</h1>
-                <form action="#">
+                <form id="fresh-form" action="#">
                     <fieldset>
                         <legend>Your Information</legend>
                         <label class="labelf"><img src="images/name.png" alt="name"> First name*: <input type="text" name="fname" required></label>
@@ -61,9 +61,9 @@
                     </fieldset>
                     <fieldset>
                         <legend>Your Drink</legend>
-                        <label class="labelf"></label>
                         <div>Choose up to 3 fruits:</div>
-                        <label id="listFruits"></label>
+                        <!-- <div id="list-fruits" class="list-fruits"></div> -->
+                        <label><select name="fruit1" id="fruit1"></select></label>
                         <label class="labelf">Aditional Instruction: <textarea name="text-area" id="text-area" placeholder=" (optional)" cols="35" rows="5"></textarea></label>
                     </fieldset>
                     <input type="submit" value="Make My Drink" class="submitBtn">
