@@ -25,3 +25,14 @@ document.querySelector('#day1').textContent = day1;
 document.querySelector('#day2').textContent = day2;
 document.querySelector('#day3').textContent = day3;
 document.querySelector('#year').textContent = year;
+
+// JSON Fruits
+async function getFruits() {
+    const response = await fetch("./data/fruits.json");
+    const data = await response.json();
+    displayFruits(data);
+}
+
+const displayFruits = (fruits) => {
+    
+}
