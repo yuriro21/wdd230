@@ -79,6 +79,9 @@ fruitForm.addEventListener('submit', (event) => {
     let select1 = document.querySelector('#fruit1');
     let select2 = document.querySelector('#fruit2');
     let select3 = document.querySelector('#fruit3');
+    let name = document.querySelector('#name').value;
+    let email = document.querySelector('#email').value;
+    let phone = document.querySelector('#phone').value;
 
     let fruit1Id = Number(select1.value);
     let fruit2Id = Number(select2.value);
@@ -96,11 +99,11 @@ fruitForm.addEventListener('submit', (event) => {
 
 
     alert(`
-            Your Order
+    Your Order
 
-    Name: ${data.fname}
-    Email: ${data.email}
-    Phone: ${data.phone}
+    Name: ${name}
+    Email: ${email}
+    Phone: ${phone}
     Order date: ${currentmonth} ${day}, ${year} Hour: ${hours}:${minutes}
 
     Fruit 1: ${fruit1.name}
