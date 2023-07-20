@@ -277,6 +277,19 @@ form input.submitBtn:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+.fresh-label {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px silver;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
 /* ------- About US ------- */
 #main-about {
     display: flex;
@@ -336,6 +349,11 @@ footer div {
 
 #credits-page {
     text-align: center;
+    margin: 30px;
+}
+
+#credits-page h2{
+    margin-top: 15px;
 }
 
 #credits {

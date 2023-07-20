@@ -34,3 +34,25 @@ function displayResults(weatherData) {
 }
 
 apiFetch();
+
+//Dates
+const currentDate = new Date();
+let minutes = currentDate.getMinutes();
+let hours = currentDate.getHours();
+let day = currentDate.getDay();
+let month = currentDate.getMonth();
+let year = currentDate.getFullYear();
+
+const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+let day1 = days[day + 1];
+let day2 = days[day + 2];
+let day3 = days[day + 3];
+
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+let currentmonth = months[month];
+
+document.getElementById('#day1').textContent = day1;
+document.getElementById('#day2').textContent = day2;
+document.getElementById('#day3').textContent = day3;
+document.getElementById('#year').textContent = year;
